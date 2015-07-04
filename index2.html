@@ -39,42 +39,82 @@
       <div class="slides">
         <!-- 01 -->
         <section>
-          <h1>音声再生機能 </h1>
+          <h1>PutVoice 〜声を残していこう〜</h1>
           <h3></h3>
           <p>
-            <small>Created by <u>Masahiro Onohara</u> / <u>Masahiro Nakano</u></small>
+            <small>Created by <u>Masahiro Nakano</u> / <u>Kazuki Morita</u></small>
           </p>
         </section>
 
-	<section>
-	  <h2>進行状況</h2>
-	  <ul>
-	    <li>すべての作業が終わった場合</li>
-	    <li>音声録音機能、音声情報表示、他者との共有が出来ることになります</li>
-	    <li>現在ここまで～～</li>
-	  </ul>
-	</section>
-
         <!-- 02 -->
         <section>
-          <h2>音声を認識してWebに保存します</h2>
+          <h2>やりたいこと</h2>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Webで声を保存・共有したい</li>
           </ul>
         </section>
 
         <!-- 03 -->
         <section>
-          <h1>操作はとても簡単</h1>
-	  <ul>
-	   <li>録音ボタンを押してマイクに言葉を言い続けるだけ</li>
-	   <li>終わったら停止ボタンクリック</li>
-	  </ul>
+          <h2>背景</h2>
+          <ul>
+            <li>時々タイピングが面倒</li>
+            <li>女の声が聞きたい</li>
+            <li>声で考えを共有したい</li>
+            <li>※声優を絡めたい^^</li>
+          </ul>
         </section>
 
         <!-- 04 -->
+        <section>
+          <h2>選定した技術(client側)</h2>
+          <h3>Web Audio API</h3>
+          <ul>
+            <li>Flashとかだるい、アクセシビリティがががが(略)</li>
+          </ul>
+        </section>
+
+        <!-- 05 -->
+        <section>
+          <h2>選定した技術(サーバー側)</h2>
+          <h3>Play framework(java)</h3>
+          <ul>
+            <li>とっつきやすい</li>
+            <li>森田さんJavaの経験あるので</li>
+          </ul>
+        </section>
+
+        <!-- 06 -->
+        <section>
+          <h2>想定する機能概要</h2>
+          <ul>
+            <li>ログイン/ユーザー作成機能</li>
+            <li>録音/再生機能</li>
+            <li>音声保存機能</li>
+            <li>指定した場(ユーザー含め)に録音音声を置く</li>
+            <li></li>
+          </ul>
+        </section>
+
+        <!-- 07 -->
+        <section>
+          <h2>進捗状況</h2>
+          <ul>
+            <li>音声録音/再生機能はなんとかできた</li>
+            <li>ファイルをアップロードできた</li>
+          </ul>
+        </section>
+
+        <!-- 08 -->
+        <section>
+          <h1>操作はとても簡単</h1>
+          <ul>
+           <li>録音ボタンを押してマイクに言葉を言い続けるだけ</li>
+           <li>終わったら停止ボタンクリック</li>
+          </ul>
+        </section>
+
+        <!-- 09 -->
         <section>
           <h2>ブログでタイプするのも大変な人もできたりします</h2>
           <ul>
@@ -86,17 +126,25 @@
           </p>
         </section>
 
-        <!-- 05 -->
+        <!-- 10 -->
         <section>
-          <h2>人とチャットする時</h2>
-	   <ul>
-	     <li>文章を突然声で送ったり</li>
-	     <li>挨拶なんかも声で送ると面白そうです</li>
-	   </ul>
+          <h2>デモ</h2>
         </section>
-        
 
-        <!-- 04 -->
+        <!-- 11 -->
+        <section>
+          <h2>苦労した点</h2>
+          <ul>
+            <li>ブラウザのサポートがまだ。。。</li>
+            <li>マイクが必要(今時のPCにはついているはず…！)</li>
+            <li>Web AudioのAPIがクソ(グローバル変数氏〜)</li>
+          </ul>
+          <p>
+            <img src="css/images/shoei-flash.jpg-large" width="700" height="450" alt="昭栄が泣きながらjQueryをゴリゴリ弄る" />
+          </p>
+        </section>
+
+        <!-- 12 -->
         <section> 
           <h1>THE END</h1>
           <h2>ご清聴<br />ありがとうございました</h2>
